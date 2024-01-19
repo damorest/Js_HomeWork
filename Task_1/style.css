@@ -1,10 +1,68 @@
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins/Poppins-BlackItalic.ttf');
-    }
+}
 
-    h1 {
-        font-family: 'Poppins', sans-serif;
-    }
 
-    
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 1);
+    padding-top: 7px;
+    padding-left: 42px;
+}
+
+.navbar {
+    display: flex;
+    height: 92px;
+    background-color: rgba(28, 30, 83, 1);
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1600px;
+}
+.logo {
+    height: 25px;
+}
+
+.menu {
+    float: left;
+    margin: auto;
+}
+
+li {    
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+li a {
+    color: rgba(187, 187, 203, 1);
+    text-decoration: none;
+    height: 30px;
+}
+
+li a.active {
+    color: rgba(255, 255, 255, 1);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 600px;
+    padding: 0;
+}
+
+button {
+    float: right;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    width: 185px;
+    height: 60px;
+    margin-top: 16px;
+    margin-left: 50px;
+    background-color:rgba(28, 30, 83, 1);
+    color:rgba(255, 255, 255, 1);
+}
