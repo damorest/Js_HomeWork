@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-BlackItalic.ttf');
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    
